@@ -9,4 +9,5 @@ cache: yarn
 # if: type != pull_request
 # if: branch =~ ^renovate
 # if: NOT head_branch =~ ^renovate
-if: fork = true
+# if: fork = true
+if: fork = false
