@@ -8,4 +8,4 @@ cache: yarn
 # Testing this
 # if: type != pull_request
 # if: branch =~ ^renovate
-# if: head_branch =~ ^renovate
+if: NOT head_branch =~ ^renovate
