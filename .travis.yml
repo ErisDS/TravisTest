@@ -6,5 +6,5 @@ node_js:
 cache: yarn
 
 # Testing this
-if: type != pull_request
+# if: type != pull_request
 
